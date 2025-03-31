@@ -1,1 +1,0 @@
-chrome-extension://ffekmfclcdnahgaeagcmdcnbgkcjhfld/stereotomono.js
