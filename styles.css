@@ -1,0 +1,64 @@
+/* Import Google Fonts */
+@import url("//fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("//fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* Heading */
+#row-PNJDGCz5Zr div h1{
+ font-family:'Red Hat Display', sans-serif;
+}
+
+/* Vertical */
+#row-PNJDGCz5Zr .c-column .vertical{
+ transform:translatex(0px) translatey(0px);
+}
+
+/* Link */
+.cart-nav-wrapper .nav-menu a{
+ font-family:'Red Hat Display', sans-serif;
+}
+
+/* Heading */
+#row-PNJDGCz5Zr div h2{
+ font-family:'Red Hat Text', sans-serif;
+}
+
+/* Main heading button */
+#button-VxvKbqOyqs_btn .main-heading-group .main-heading-button{
+ font-family:'Red Hat Display', sans-serif;
+}
+
+/* Main heading button */
+.cbutton-hgdOu_m0S1 .main-heading-group .main-heading-button{
+ font-family:'Red Hat Text', sans-serif;
+}
+
+/* Image */
+.cimage-dNjl0JagGo div img{
+ display:inline-block;
+ transform:translatex(0px) translatey(0px) !important;
+}
+
+/* Heading */
+#row-8aXB9yz-Rm div h1{
+ display:inline-block;
+ transform:translatex(0px) translatey(0px) !important;
+}
+
+/* Main heading button */
+.cbutton-iTKjP-6paL .main-heading-group .main-heading-button{
+ font-family:'Red Hat Display', sans-serif;
+}
+
+/* Image */
+#row-PNJDGCz5Zr .c-heading img{
+ transform:scale(1.25);
+}
+
+@media (max-width:767px){
+
+ /* Heading */
+ #row-PNJDGCz5Zr div h1{
+  transform:translatex(0px) translatey(0px) !important;
+ }
+ 
+}
