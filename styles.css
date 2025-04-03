@@ -60,3 +60,39 @@
  
  
 }
+
+/* Image */
+#row-PNJDGCz5Zr div img{
+ position:relative;
+ bottom:47px;
+}
+
+/* Strong Tag */
+#row-8aXB9yz-Rm h1 strong{
+ display:inline-block;
+ transform:translatex(0px) translatey(0px) !important;
+}
+
+/* Strong Tag */
+#__nuxt #section-eRM0O7dCi8 h1:nth-child(2) strong:nth-child(1){
+ position:relative;
+ left:0px;
+ transform:scale(0.86) translatex(-46px) translatey(6px) !important;
+}
+
+/* Strong Tag */
+#__nuxt #section-eRM0O7dCi8 h1:nth-child(3) strong{
+ transform:scale(0.94) translatex(-14px) !important;
+}
+
+/* Image */
+.cimage-hp6eBtdEi7 div img{
+ display:inline-block;
+ transform:scale(0);
+}
+
+/* Division */
+#col-Js_BnZuaEh{
+ transform: translatex(98px);
+}
+
