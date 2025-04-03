@@ -61,6 +61,13 @@
  
 }
 
+/* Image */
+#row-PNJDGCz5Zr div img{
+ position:relative;
+ bottom:45px;
+}
+
+
 /* Horizontal */
 #col-Js_BnZuaEh .horizontal{
  transform:translatex(0px) translatey(0px);
@@ -71,3 +78,5 @@
  left:-200px;
  position:fixed;
 }
+
+
