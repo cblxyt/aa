@@ -79,4 +79,11 @@
  position:fixed;
 }
 
+@media (max-width:767px){
 
+ /* Image */
+ .nav-menu-wrapper a img{
+  transform: translatex(335px);
+ }
+ 
+}
