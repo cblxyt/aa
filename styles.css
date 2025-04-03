@@ -60,3 +60,14 @@
  
  
 }
+
+/* Horizontal */
+#col-Js_BnZuaEh .horizontal{
+ transform:translatex(0px) translatey(0px);
+}
+
+/* Image hp6e ei7 */
+#col-Js_BnZuaEh .horizontal .image-hp6eBtdEi7{
+ left:-200px;
+ position:fixed;
+}
