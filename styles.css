@@ -79,3 +79,10 @@
  position:fixed;
 }
 
+/* Cart nav wrapper */
+.c-nav-menu .nav-menu-wrapper .cart-nav-wrapper{
+ position:relative;
+ left:99px;
+}
+
+
