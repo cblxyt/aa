@@ -78,3 +78,12 @@
  left:-200px;
  position:fixed;
 }
+
+@media (min-width:768px){
+
+ /* Cart nav wrapper */
+ .c-nav-menu .nav-menu-wrapper .cart-nav-wrapper{
+  margin-right:0px;
+ }
+ 
+}
