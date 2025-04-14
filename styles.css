@@ -87,3 +87,13 @@
  }
  
 }
+
+/* Link */
+.cart-nav-wrapper .nav-menu a{
+ transform:scale(1.39);
+ padding-left:55px !important;
+ position:relative;
+ left:70px;
+}
+
+
