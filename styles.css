@@ -96,3 +96,23 @@
  left:70px;
 }
 
+/* Vertical */
+#col-e-K_OxiAIK .vertical{
+ transform:translatex(83px) translatey(0px);
+ position:relative;
+ left:-127px;
+}
+
+/* Col  oxiaik */
+#col-e-K_OxiAIK{
+ transform: translatex(129px);
+}
+
+@media (min-width:481px){
+
+ /* Button 6pal */
+ #col-e-K_OxiAIK .vertical .button-iTKjP-6paL{
+  margin-right:85px;
+ }
+ 
+}
