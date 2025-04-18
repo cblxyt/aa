@@ -117,32 +117,3 @@
  
 }
 
-/* Vertical */
-#row-TkzEgKdnOK .c-column .vertical{
- font-weight:700;
-}
-
-/* Link */
-#button-VxvKbqOyqs_btn{
- padding-left:28px;
- padding-right:21px;
- position:relative;
- top:12px;
- left:-7px;
- transform:scale(1.1);
-}
-
-/* Section zoje */
-#section-sZoJE-ICcg{
- transform:translatex(0px) translatey(0px);
-}
-
-@media (min-width:768px){
-
- /* Vertical */
- #row-TkzEgKdnOK .c-column .vertical{
-  padding-left:200px;
-  padding-right:175px;
- }
- 
-}
