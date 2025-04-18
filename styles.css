@@ -116,3 +116,29 @@
  }
  
 }
+
+/* Span Tag */
+#button-VxvKbqOyqs_btn .main-heading-group span{
+ font-weight:700;
+ font-size:20px;
+}
+
+/* Inner */
+#row-TkzEgKdnOK > .inner{
+ transform:translatex(0px) translatey(0px);
+}
+
+/* Column */
+#row-TkzEgKdnOK .c-column{
+ transform:scale(1.14);
+}
+
+@media (min-width:768px){
+
+ /* Column */
+ #row-TkzEgKdnOK .c-column{
+  margin-left:130px;
+  margin-right:145px;
+ }
+ 
+}
