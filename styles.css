@@ -116,3 +116,39 @@
  }
  
 }
+
+/* Button m0s1 */
+#row-TkzEgKdnOK .c-column .button-hgdOu_m0S1{
+ transform:scale(0);
+}
+
+/* Vertical */
+#__nuxt #section-sZoJE-ICcg .c-column:nth-child(2) .vertical{
+ transform:scale(0);
+}
+
+/* Column */
+#__nuxt #section-sZoJE-ICcg .c-column:nth-child(2){
+ transform:scale(0);
+}
+
+/* Inner */
+#row-TkzEgKdnOK > .inner{
+ transform:scale(1.2);
+ margin-left:29px;
+}
+
+/* Link */
+#button-VxvKbqOyqs_btn{
+ position:relative;
+ top:8px;
+}
+
+@media (min-width:768px){
+
+ /* Row  kdnok */
+ #row-TkzEgKdnOK{
+  margin-right:149px;
+ }
+ 
+}
