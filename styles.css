@@ -117,3 +117,23 @@
  
 }
 
+/* Link */
+#button-VxvKbqOyqs_btn{
+ font-weight:700;
+ padding-left:47px;
+}
+
+/* Section zoje */
+#section-sZoJE-ICcg{
+ transform:translatex(0px) translatey(0px);
+}
+
+@media (min-width:768px){
+
+ /* Column */
+ #row-TkzEgKdnOK .c-column{
+  padding-left:178px;
+  padding-right:186px;
+ }
+ 
+}
