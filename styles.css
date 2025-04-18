@@ -155,3 +155,12 @@
  }
  
 }
+
+@media (max-width:767px){
+
+ /* Image */
+ #row-PNJDGCz5Zr div img{
+  top:-35px;
+ }
+ 
+}
