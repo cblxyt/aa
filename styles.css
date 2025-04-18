@@ -137,3 +137,28 @@
  }
  
 }
+
+/* Row  kdnok */
+#row-TkzEgKdnOK{
+ transform:translatex(0px) translatey(0px);
+}
+
+@media (max-width:767px){
+
+ /* Inner */
+ #row-TkzEgKdnOK > .inner{
+  padding-left:227px !important;
+ }
+ 
+ /* Inner */
+ #__nuxt div div #preview-container div #section-sZoJE-ICcg .inner #row-TkzEgKdnOK > .inner{
+  width:71% !important;
+ }
+ 
+ /* Link */
+ #button-VxvKbqOyqs_btn{
+  width:89%;
+  padding-left:59px;
+ }
+ 
+}
