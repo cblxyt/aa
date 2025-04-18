@@ -116,20 +116,3 @@
  }
  
 }
-
-/* Column */
-#__nuxt #section-sZoJE-ICcg .c-column:nth-child(2){
- transform:scale(0);
-}
-
-/* Column */
-#row-TkzEgKdnOK .c-column{
- left:144px;
-}
-
-/* Column */
-#section-sZoJE-ICcg .inner #row-TkzEgKdnOK .inner .c-column:nth-child(1){
- transform:scale(1.08);
-}
-
-
