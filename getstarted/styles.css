@@ -116,3 +116,51 @@
  }
  
 }
+
+/* Link */
+#button-VxvKbqOyqs_btn{
+ font-weight:700;
+ padding-left:47px;
+}
+
+/* Section zoje */
+#section-sZoJE-ICcg{
+ transform:translatex(0px) translatey(0px);
+}
+
+@media (min-width:768px){
+
+ /* Column */
+ #row-TkzEgKdnOK .c-column{
+  padding-left:178px;
+  padding-right:186px;
+ }
+ 
+}
+
+/* Link */
+#button-VxvKbqOyqs_btn{
+ font-size:20px;
+ padding-left:34px;
+ padding-right:25px;
+}
+
+
+@media (max-width:767px){
+
+ /* Row  kdnok */
+ #row-TkzEgKdnOK{
+  padding-left:60px !important;
+  padding-right:60px !important;
+ }
+ 
+}
+
+@media (max-width:767px){
+
+ /* Image */
+ #row-PNJDGCz5Zr div img{
+  top:-35px;
+ }
+ 
+}
