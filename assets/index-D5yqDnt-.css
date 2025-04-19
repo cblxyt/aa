@@ -4291,3 +4291,13 @@ body {
  transform:scale(0);
 }
 
+/* Justify center */
+.overflow-x-hidden > .relative > .relative > .mx-auto > .justify-center{
+ transform:translatex(0px) translatey(0px);
+}
+
+/* Justify center */
+.mx-auto > .justify-center .justify-center{
+ transform:scale(0) !important;
+}
+
