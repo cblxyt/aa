@@ -4104,3 +4104,10 @@ body {
  font-weight:400;
 }
 
+/* Nav link */
+.justify-between .md\:flex .nav-link{
+ transform: translatex(-227px);
+}
+
+
+
