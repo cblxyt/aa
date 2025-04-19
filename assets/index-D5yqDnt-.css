@@ -4281,3 +4281,13 @@ body {
  font-family:'Poppins', sans-serif;
 }
 
+/* Span Tag */
+.relative > .overflow-hidden > .mx-auto > div .justify-center span{
+ transform:scale(0);
+}
+
+/* Svg */
+.relative > .overflow-hidden > .mx-auto > div .w-5{
+ transform:scale(0);
+}
+
