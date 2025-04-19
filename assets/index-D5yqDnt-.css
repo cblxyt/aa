@@ -4281,4 +4281,14 @@ body {
  font-family:'Poppins', sans-serif;
 }
 
+/* Justify center */
+.overflow-x-hidden div:nth-child(1) .justify-center:nth-child(4){
+ transform:scale(0);
+}
+
+/* Division */
+.relative > .overflow-hidden > .mx-auto > div{
+ transform: translatey(49px);
+}
+
 
