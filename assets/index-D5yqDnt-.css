@@ -4144,3 +4144,8 @@ body {
  font-family:'Red Hat Display', sans-serif;
 }
 
+/* Image */
+.flex-shrink-0 .items-center img{
+ transform:scale(1.28);
+}
+
