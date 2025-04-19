@@ -4301,3 +4301,18 @@ body {
  transform:scale(0) !important;
 }
 
+/* Paragraph */
+.relative > .overflow-hidden > .mx-auto > div p{
+ font-weight:500;
+}
+
+/* Typewriter  wrapper */
+.overflow-x-hidden div .Typewriter__wrapper{
+ font-weight:600;
+}
+
+/* Gradient */
+.relative > .overflow-hidden > .mx-auto > div .bg-gradient-to-r{
+ font-weight:700;
+}
+
