@@ -4098,12 +4098,6 @@ body {
 /* Import Google Fonts */
 @import url("//fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
-/* Nav link */
-.overflow-x-hidden .mx-auto .nav-link{
- transform:scale(1.08) translatex(-207px);
- font-family:'Red Hat Text', sans-serif;
-}
-
 /* Import Google Fonts */
 @import url("//fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("//fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
