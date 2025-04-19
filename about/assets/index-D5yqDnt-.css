@@ -4106,7 +4106,7 @@ body {
 
 /* Nav link */
 .justify-between .md\:flex .nav-link{
- transform: translatex(-227px);
+ transform: translatex(0px);
 }
 
 /* Import Google Fonts */
