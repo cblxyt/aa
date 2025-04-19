@@ -4149,10 +4149,6 @@ body {
  font-size:17px;
 }
 
-/* Division */
-.relative > .overflow-hidden > .mx-auto > div{
- transform:scale(1.17);
-}
 
 
 
