@@ -4316,3 +4316,8 @@ body {
  font-weight:700;
 }
 
+/* Paragraph */
+.relative > .overflow-hidden > .mx-auto > div p{
+ font-size:16px;
+}
+
