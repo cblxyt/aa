@@ -4144,3 +4144,15 @@ body {
  transform:scale(1.28);
 }
 
+/* Paragraph */
+.relative > .overflow-hidden > .mx-auto > div p{
+ font-size:17px;
+}
+
+/* Division */
+.relative > .overflow-hidden > .mx-auto > div{
+ transform:scale(1.17);
+}
+
+
+
