@@ -27,7 +27,8 @@
   </head>
 
   <body>
-    <div id="root"></div>
+    <!-- Create a nav element where the menu will be injected -->
+    <nav id="nav"></nav>
     
     <!-- Lovable editor script is loaded only in development mode -->
     <script>
@@ -40,5 +41,12 @@
     </script>
     
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"9324f951d8c9adad","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.4.0-1-g37f21b1","token":"dc79be98a7d9454985898a9490bd0402"}' crossorigin="anonymous"></script>
+
+    <!-- Add your script to inject the dynamic menu items -->
+    <script>
+      const i = () => window.location.href = "https://leaddestiny.com/book-call";
+      const o = `<a href="https://leaddestiny.com/">Home</a><a href="https://leaddestiny.com/features">Features</a><a href="https://leaddestiny.com/about">About</a><a href="https://leaddestiny.com/contact">Contact Us</a><a href="https://leaddestiny.com/book-call">Book a Demo</a>`;
+      document.getElementById("nav").innerHTML = o;
+    </script>
   </body>
 </html>
