@@ -4315,4 +4315,15 @@ body {
  font-size:16px;
 }
 
+/* Nav link */
+.justify-between .md\:flex .nav-link{
+ transform: translatex(-203px);
+}
+
+/* Nav link */
+.justify-between .md\:flex .nav-link{
+ margin-right:32px;
+ margin-left:33px;
+ transform:scale(1.2) translatex(-105px);
+}
 
