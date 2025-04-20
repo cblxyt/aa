@@ -4121,18 +4121,6 @@ body {
  font-size:17px;
 }
 
-/* Hover */
-.overflow-x-hidden .transition-all .hover\:text-white{
- font-family:'Red Hat Text', sans-serif;
- font-size:15px;
-}
-
-/* Neon button */
-.overflow-x-hidden .transition-all .neon-button{
- font-weight:500;
- font-family:'Red Hat Display', sans-serif;
-}
-
 /* Image */
 .flex-shrink-0 .items-center img{
  transform:scale(1.28);
@@ -4183,16 +4171,6 @@ body {
 .overflow-x-hidden .mx-auto .nav-link{
  font-family:'Poppins', sans-serif;
  font-weight:400;
-}
-
-/* Hover */
-.overflow-x-hidden .transition-all .hover\:text-white{
- font-family:'Poppins', sans-serif;
-}
-
-/* Neon button */
-.overflow-x-hidden .transition-all .neon-button{
- font-family:'Poppins', sans-serif;
 }
 
 /* Font bold */
