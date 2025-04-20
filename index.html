@@ -21,86 +21,31 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    
-    <!-- Custom CSS for Layout and Navigation -->
-    <style>
-      body {
-        font-family: Poppins, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f0f0f0;
-      }
-      nav {
-        background-color: #333;
-        padding: 10px;
-        text-align: center;
-      }
-      nav a {
-        color: white;
-        margin: 0 15px;
-        text-decoration: none;
-        font-size: 18px;
-      }
-      nav a:hover {
-        text-decoration: underline;
-      }
-      .header {
-        background-color: #4CAF50;
-        padding: 60px 0;
-        text-align: center;
-        color: white;
-      }
-      .header h1 {
-        font-size: 50px;
-      }
-      .main-content {
-        padding: 20px;
-        text-align: center;
-      }
-      .footer {
-        background-color: #333;
-        color: white;
-        text-align: center;
-        padding: 10px 0;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-      }
-    </style>
+
+    <script type="module" crossorigin src="/assets/index-fI_To_VE.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-D5yqDnt-.css">
   </head>
 
   <body>
-    <!-- Navigation Bar -->
+    <!-- Create a nav element where the menu will be injected -->
     <nav id="nav"></nav>
 
-    <!-- Header Section -->
-    <div class="header">
-      <h1>Welcome to LeadDestiny</h1>
-      <p>Your AI-powered solution for local businesses</p>
-    </div>
-
-    <!-- Main Content Section -->
-    <div class="main-content">
-      <h2>Our Features</h2>
-      <p>Automate customer service, streamline operations, and grow your business with powerful AI tools.</p>
-      <!-- More content goes here -->
-    </div>
-
-    <!-- Footer Section -->
-    <div class="footer">
-      <p>&copy; 2025 LeadDestiny. All Rights Reserved.</p>
-    </div>
-
-    <!-- Add Script to Inject Links -->
+    <!-- Lovable editor script is loaded only in development mode -->
     <script>
-      // Dynamically injecting navigation links
-      const o = `
-        <a href="https://leaddestiny.com/">Home</a>
-        <a href="https://leaddestiny.com/features">Features</a>
-        <a href="https://leaddestiny.com/about">About</a>
-        <a href="https://leaddestiny.com/contact">Contact Us</a>
-        <a href="https://leaddestiny.com/book-call">Book a Demo</a>
-      `;
+      if (process.env.ENABLE_EDITING) {
+        const script = document.createElement('script');
+        script.src = "https://cdn.gpteng.co/gptengineer.js";
+        script.type = "module";
+        document.head.appendChild(script);
+      }
+    </script>
+    
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"9324f951d8c9adad","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.4.0-1-g37f21b1","token":"dc79be98a7d9454985898a9490bd0402"}' crossorigin="anonymous"></script>
+
+    <!-- Add your script to inject the dynamic menu items -->
+    <script>
+      const i = () => window.location.href = "https://leaddestiny.com/book-call";
+      const o = `<a href="https://leaddestiny.com/">Home</a><a href="https://leaddestiny.com/features">Features</a><a href="https://leaddestiny.com/about">About</a><a href="https://leaddestiny.com/contact">Contact Us</a><a href="https://leaddestiny.com/book-call">Book a Demo</a>`;
       document.getElementById("nav").innerHTML = o;
     </script>
   </body>
