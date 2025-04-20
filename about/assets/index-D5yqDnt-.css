@@ -4098,6 +4098,23 @@ body {
 /* Import Google Fonts */
 @import url("//fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
+/* Hover */
+.overflow-x-hidden .transition-all .hover\:text-white{
+ font-family:'Red Hat Text', sans-serif;
+ font-size:15px;
+}
+
+/* Neon button */
+.overflow-x-hidden .transition-all .neon-button{
+ font-weight:500;
+ font-family:'Red Hat Display', sans-serif;
+}
+
+/* Image */
+.flex-shrink-0 .items-center img{
+ transform:scale(1.28);
+}
+
 /* Nav link */
 .overflow-x-hidden .mx-auto .nav-link{
  font-family:'Poppins', sans-serif;
@@ -4106,7 +4123,7 @@ body {
 
 /* Nav link */
 .justify-between .md\:flex .nav-link{
- transform: translatex(-193px);
+ transform: translatex(-203px);
 }
 
 /* Import Google Fonts */
@@ -4117,6 +4134,21 @@ body {
  font-family:'Poppins', sans-serif;
 }
 
+/* Hover */
+.overflow-x-hidden .transition-all .hover\:text-white{
+ font-family:'Poppins', sans-serif;
+}
 
+/* Neon button */
+.overflow-x-hidden .transition-all .neon-button{
+ font-family:'Poppins', sans-serif;
+}
+
+/* Nav link */
+.justify-between .md\:flex .nav-link{
+ padding-left:34px;
+ left:41px;
+ transform:scale(1.2) translatex(-181px);
+}
 
 
