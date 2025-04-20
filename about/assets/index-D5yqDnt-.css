@@ -4144,11 +4144,3 @@ body {
  font-family:'Poppins', sans-serif;
 }
 
-/* Nav link */
-.justify-between .md\:flex .nav-link{
- padding-left:34px;
- left:41px;
- transform:scale(1.2) translatex(-181px);
-}
-
-
