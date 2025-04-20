@@ -4312,3 +4312,16 @@ body {
 .overflow-x-hidden .mx-auto .nav-link{
  font-family:'Poppins', sans-serif;
 }
+
+/* Nav link */
+.justify-between .md\:flex .nav-link{
+ right:0px;
+ left:24px;
+}
+
+/* Nav link */
+.overflow-x-hidden .mx-auto .nav-link{
+ right:0px;
+ left:24px;
+}
+
