@@ -44,22 +44,24 @@
 
     <!-- Conditional Image Section for Homepage -->
     <script>
-      if (window.location.pathname === "/" || window.location.hostname === "leaddestiny.com") {
-        document.addEventListener("DOMContentLoaded", function() {
-          const imageContainer = document.createElement('div');
-          imageContainer.style.textAlign = "center";
-          imageContainer.style.margin = "40px 0";
+      // Create a function to add the image on the homepage
+      function addImage() {
+        // Only show image on the homepage
+        if (window.location.pathname === "/" || window.location.hostname === "leaddestiny.com") {
+          // Check if the image container already exists
+          if (!document.getElementById('homepage-image')) {
+            const imageContainer = document.createElement('div');
+            imageContainer.id = 'homepage-image';
+            imageContainer.style.textAlign = "center";
+            imageContainer.style.margin = "40px 0";
 
-          const img = document.createElement('img');
-          img.src = "/lovable-uploads/twently-453f-96db-b2beff65ddd8.png";
-          img.alt = "LeadDestiny";
-          img.className = "h-10";
+            const img = document.createElement('img');
+            img.src = "/lovable-uploads/twently-453f-96db-b2beff65ddd8.png";
+            img.alt = "LeadDestiny"; // Alt text for the image
+            img.className = "h-10"; // Add class for styling
 
-          imageContainer.appendChild(img);
-
-          document.body.appendChild(imageContainer);
-        });
-      }
-    </script>
-  </body>
-</html>
+            imageContainer.appendChild(img);
+            document.body.appendChild(imageContainer);
+          }
+        } else {
+          // If not
