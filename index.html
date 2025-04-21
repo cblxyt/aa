@@ -42,16 +42,29 @@
     <!-- Cloudflare Insights -->
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"9324f951d8c9adad","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.4.0-1-g37f21b1","token":"dc79be98a7d9454985898a9490bd0402"}' crossorigin="anonymous"></script>
 
-    <!-- ✅ Homepage-only image injection -->
+    <!-- Conditional Image Section for Homepage -->
     <script>
-      if (window.location.pathname === "/") {
-        const img = document.createElement("img");
-        img.src = "/lovable-uploads/twently-453f-96db-b2beff65ddd8.png";
-        img.alt = "LeadDestiny";
-        img.style.display = "block";
-        img.style.margin = "20px auto";
-        img.style.maxWidth = "200px";
-        document.body.appendChild(img);
+      if (window.location.pathname === "/" || window.location.hostname === "leaddestiny.com") {
+        document.addEventListener("DOMContentLoaded", function() {
+          const imageContainer = document.createElement('div');
+          imageContainer.style.textAlign = "center";
+          imageContainer.style.margin = "40px 0";
+
+          const img1 = document.createElement('img');
+          img1.src = "/lovable-uploads/1f65f4e9-3254-453f-96db-b2beff65ddd7.png";
+          img1.alt = "LeadDestiny";
+          img1.className = "h-10";
+
+          const img2 = document.createElement('img');
+          img2.src = "/lovable-uploads/twently-453f-96db-b2beff65ddd8.png";
+          img2.alt = "LeadDestiny";
+          img2.className = "h-10";
+
+          imageContainer.appendChild(img1);
+          imageContainer.appendChild(img2);
+
+          document.body.appendChild(imageContainer);
+        });
       }
     </script>
   </body>
