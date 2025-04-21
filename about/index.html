@@ -46,17 +46,21 @@
     <script>
       if (window.location.pathname === "/" || window.location.hostname === "leaddestiny.com") {
         document.addEventListener("DOMContentLoaded", function() {
+          // Create the image container and set its styles
           const imageContainer = document.createElement('div');
-          imageContainer.style.textAlign = "center";
-          imageContainer.style.margin = "40px 0";
+          imageContainer.style.textAlign = "center"; // Center the image
+          imageContainer.style.margin = "40px 0"; // Add some margin
 
+          // Create the image element
           const img = document.createElement('img');
           img.src = "/lovable-uploads/twently-453f-96db-b2beff65ddd8.png";
-          img.alt = "LeadDestiny";
-          img.className = "h-10";
+          img.alt = "LeadDestiny"; // Alt text for the image
+          img.className = "h-10"; // Add class for styling
 
+          // Append the image to the container
           imageContainer.appendChild(img);
 
+          // Append the image container to the body
           document.body.appendChild(imageContainer);
         });
       }
