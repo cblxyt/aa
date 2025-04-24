@@ -4402,7 +4402,7 @@ body {
  
  /* Block */
  .overflow-x-hidden .mx-auto .block:nth-child(6){
-  transform: translatex(2px) translatey(-46px);
+  transform: translatex(1px) translatey(-46px);
  }
  
 }
