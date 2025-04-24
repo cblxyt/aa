@@ -4348,3 +4348,8 @@ body {
  font-family:'Poppins', sans-serif;
  font-weight:500;
 }
+
+#radix-\:ri\: .absolute .disabled\:pointer-events-none{
+ transform:scale(0);
+}
+
