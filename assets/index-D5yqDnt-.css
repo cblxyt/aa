@@ -4426,3 +4426,11 @@ body {
  
 }
 
+@media (max-width:600px){
+
+ /* Image */
+ .flex-shrink-0 .items-center img{
+  transform:scale(1.45) translatex(112px);
+ }
+ 
+}
