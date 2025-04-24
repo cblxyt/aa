@@ -4353,3 +4353,18 @@ body {
  transform:scale(0);
 }
 
+/* Nav link */
+.overflow-x-hidden .mx-auto .nav-link:nth-child(5){
+ transform:scale(0);
+}
+
+/* Neon button */
+.overflow-x-hidden .transition-all .neon-button{
+ transform: translatex(-348px);
+}
+
+/* Hover */
+.overflow-x-hidden .transition-all .hover\:text-white{
+ transform:scale(1.1) translatex(178px);
+}
+
