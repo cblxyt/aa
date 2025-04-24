@@ -4382,3 +4382,27 @@ body {
 .justify-between .md\:flex .hover\:text-white{
  transform:scale(1.1) translatex(178px);
 }
+
+@media (max-width:600px){
+
+ /* Neon button */
+ .overflow-x-hidden .md\:hidden .neon-button{
+  transform: translatey(-43px);
+ }
+ 
+ /* Block */
+ .overflow-x-hidden .mx-auto .block:nth-child(5){
+  transform:scale(0);
+ }
+ 
+ /* Glass card */
+ .overflow-x-hidden .md\:hidden .glass-card{
+  height:295px;
+ }
+ 
+ /* Block */
+ .overflow-x-hidden .mx-auto .block:nth-child(6){
+  transform: translatex(2px) translatey(-46px);
+ }
+ 
+}
