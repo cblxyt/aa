@@ -4375,7 +4375,7 @@ body {
 
 /* Neon button */
 .justify-between .md\:flex .neon-button{
- transform: translatex(-350px);
+ transform: translatex(-348px);
 }
 
 /* Hover */
