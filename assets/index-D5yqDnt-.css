@@ -4389,7 +4389,21 @@ body {
  .overflow-x-hidden .md\:hidden .neon-button{
   transform: translatey(-43px);
  }
+
+@media (max-width:600px){
+
+ /* Lucide menu */
+ .md\:hidden .hover\:text-primary .lucide-menu{
+  transform:scale(1.45) translatex(-9px);
+ }
  
+ /* Lucide */
+ .overflow-x-hidden .mx-auto .lucide-x{
+  transform:scale(1.45) translatex(-9px);
+ }
+ 
+}
+
  /* Block */
  .overflow-x-hidden .mx-auto .block:nth-child(5){
   transform:scale(0);
@@ -4406,3 +4420,4 @@ body {
  }
  
 }
+
