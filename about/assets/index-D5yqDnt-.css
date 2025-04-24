@@ -4348,3 +4348,37 @@ body {
  font-family:'Poppins', sans-serif;
  font-weight:500;
 }
+
+#radix-\:ri\: .absolute .disabled\:pointer-events-none{
+ transform:scale(0);
+}
+
+/* Nav link */
+.overflow-x-hidden .mx-auto .nav-link:nth-child(5){
+ transform:scale(0);
+}
+
+/* Neon button */
+.overflow-x-hidden .transition-all .neon-button{
+ transform: translatex(-350px);
+}
+
+/* Hover */
+.overflow-x-hidden .transition-all .hover\:text-white{
+ transform:scale(1.1) translatex(178px);
+}
+
+/* Nav link */
+.justify-between .md\:flex .nav-link:nth-child(5){
+ transform:scale(0);
+}
+
+/* Neon button */
+.justify-between .md\:flex .neon-button{
+ transform: translatex(-350px);
+}
+
+/* Hover */
+.justify-between .md\:flex .hover\:text-white{
+ transform:scale(1.1) translatex(178px);
+}
