@@ -4401,7 +4401,12 @@ body {
  .overflow-x-hidden .mx-auto .lucide-x{
   transform:scale(1.45) translatex(-9px);
  }
- 
+
+ /* Lucide */
+ .justify-between .md\:hidden .lucide-x{
+  transform:scale(1.45) translatex(-9px);
+ }
+  
 }
 
  /* Block */
