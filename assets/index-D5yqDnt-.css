@@ -4394,17 +4394,17 @@ body {
 
  /* Lucide menu */
  .md\:hidden .hover\:text-primary .lucide-menu{
-  transform:scale(1.45) translatex(-5px);
+  transform:scale(1.45) translatex(-7px);
  }
  
  /* Lucide */
  .overflow-x-hidden .mx-auto .lucide-x{
-  transform:scale(1.45) translatex(-5px);
+  transform:scale(1.45) translatex(-7px);
  }
 
  /* Lucide */
  .justify-between .md\:hidden .lucide-x{
-  transform:scale(1.45) translatex(-5px);
+  transform:scale(1.45) translatex(-7px);
  }
   
 }
