@@ -4458,3 +4458,12 @@ body {
  }
  
 }
+
+@media (max-width:600px){
+
+ /* Hover */
+ .min-h-screen .hover\:bg-accent{
+  transform: translatey(-26px);
+ }
+ 
+}
