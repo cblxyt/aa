@@ -4394,17 +4394,17 @@ body {
 
  /* Lucide menu */
  .md\:hidden .hover\:text-primary .lucide-menu{
-  transform:scale(1.45) translatex(-9px);
+  transform:scale(1.45) translatex(-7px);
  }
  
  /* Lucide */
  .overflow-x-hidden .mx-auto .lucide-x{
-  transform:scale(1.45) translatex(-9px);
+  transform:scale(1.45) translatex(-7px);
  }
 
  /* Lucide */
  .justify-between .md\:hidden .lucide-x{
-  transform:scale(1.45) translatex(-9px);
+  transform:scale(1.45) translatex(-7px);
  }
   
 }
@@ -4423,6 +4423,38 @@ body {
  .overflow-x-hidden .mx-auto .block:nth-child(6){
   transform: translatex(1px) translatey(-46px);
  }
+
+@media (max-width:600px){
+
+ /* Glass card */
+ .min-h-screen .md\:hidden .glass-card{
+  height:295px;
+  transform:translatex(0px) translatey(0px);
+ }
+ 
+ /* Block */
+ .min-h-screen .md\:hidden .block:nth-child(5){
+  transform:scale(0);
+ }
+ 
+ /* Block */
+ .min-h-screen .md\:hidden .block:nth-child(6){
+  transform: translatex(1px) translatey(-46px);
+ }
+ 
+ /* Neon button */
+ .min-h-screen .md\:hidden .neon-button{
+  transform: translatey(-43px);
+ }
  
 }
 
+
+@media (max-width:600px){
+
+ /* Image */
+ .flex-shrink-0 .items-center img{
+  transform:scale(1.42) translatex(24px);
+ }
+ 
+}
