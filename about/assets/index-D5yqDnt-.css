@@ -4353,6 +4353,11 @@ body {
  transform:scale(0);
 }
 
+/* Disabled */
+.sm\:rounded-lg .absolute .disabled\:pointer-events-none{
+ transform:scale(0);
+}
+
 /* Nav link */
 .overflow-x-hidden .mx-auto .nav-link:nth-child(5){
  transform:scale(0);
