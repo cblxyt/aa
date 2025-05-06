@@ -4497,3 +4497,10 @@ body {
 .justify-between .md\:flex .neon-button{
  transform: translatex(-181px);
 }
+
+
+/* Neon button */
+.overflow-x-hidden .transition-all .neon-button{
+ transform: translatex(-115px);
+}
+
