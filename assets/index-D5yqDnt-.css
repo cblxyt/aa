@@ -4121,6 +4121,11 @@ body {
  font-size:17px;
 }
 
+/* Image */
+.flex-shrink-0 .items-center img{
+ transform:scale(1.28);
+}
+
 /* Paragraph */
 .relative > .overflow-hidden > .mx-auto > div p{
  font-size:17px;
@@ -4282,6 +4287,18 @@ body {
  font-size:16px;
 }
 
+/* Nav link */
+.justify-between .md\:flex .nav-link{
+ transform: translatex(-203px);
+}
+
+/* Nav link */
+.justify-between .md\:flex .nav-link{
+ margin-right:32px;
+ margin-left:33px;
+ transform:scale(1.2) translatex(-105px);
+}
+
 /* Import Google Fonts */
 @import url("//fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
@@ -4294,6 +4311,18 @@ body {
 /* Nav link */
 .overflow-x-hidden .mx-auto .nav-link{
  font-family:'Poppins', sans-serif;
+}
+
+/* Nav link */
+.justify-between .md\:flex .nav-link{
+ right:0px;
+ left:24px;
+}
+
+/* Nav link */
+.overflow-x-hidden .mx-auto .nav-link{
+ right:0px;
+ left:24px;
 }
 
 /* Hover */
@@ -4334,6 +4363,10 @@ body {
  transform:scale(0);
 }
 
+/* Neon button */
+.overflow-x-hidden .transition-all .neon-button{
+ transform: translatex(-349px);
+}
 
 /* Hover */
 .overflow-x-hidden .transition-all .hover\:text-white{
@@ -4345,6 +4378,10 @@ body {
  transform:scale(0);
 }
 
+/* Neon button */
+.justify-between .md\:flex .neon-button{
+ transform: translatex(-349px);
+}
 
 /* Hover */
 .justify-between .md\:flex .hover\:text-white{
@@ -4417,31 +4454,15 @@ body {
  
 }
 
-/* Image */
-.flex-shrink-0 .items-center img{
- transform:scale(1.42) translatex(138px);
-}
 
-/* Nav link */
-.overflow-x-hidden .mx-auto .nav-link{
- transform:scale(1.2) translatex(44px);
-}
+@media (max-width:600px){
 
-/* Neon button */
-.overflow-x-hidden .transition-all .neon-button{
- transform: translatex(-181px);
+ /* Image */
+ .flex-shrink-0 .items-center img{
+  transform:scale(1.42) translatex(24px);
+ }
+ 
 }
-
-/* Nav link */
-.justify-between .md\:flex .nav-link{
- transform:scale(1.2) translatex(44px);
-}
-
-/* Neon button */
-.justify-between .md\:flex .neon-button{
- transform: translatex(-181px);
-}
-
 
 @media (max-width:600px){
 
@@ -4451,4 +4472,3 @@ body {
  }
  
 }
-
