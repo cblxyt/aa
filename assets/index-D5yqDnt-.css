@@ -4282,13 +4282,6 @@ body {
  font-size:16px;
 }
 
-/* Nav link */
-.justify-between .md\:flex .nav-link{
- margin-right:32px;
- margin-left:33px;
- transform:scale(1.2) translatex(-105px);
-}
-
 /* Import Google Fonts */
 @import url("//fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
@@ -4424,16 +4417,6 @@ body {
  
 }
 
-
-@media (max-width:600px){
-
- /* Hover */
- .min-h-screen .hover\:bg-accent{
-  transform: translatey(-26px);
- }
- 
-}
-
 /* Image */
 .flex-shrink-0 .items-center img{
  transform:scale(1.42) translatex(138px);
@@ -4458,3 +4441,14 @@ body {
 .justify-between .md\:flex .neon-button{
  transform: translatex(-181px);
 }
+
+
+@media (max-width:600px){
+
+ /* Hover */
+ .min-h-screen .hover\:bg-accent{
+  transform: translatey(-26px);
+ }
+ 
+}
+
