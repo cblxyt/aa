@@ -4206,6 +4206,15 @@ body {
  transform: translatex(-158px);
 }
 
+@media (max-width:600px){
+
+ /* Image */
+ .flex-shrink-0 .items-center img{
+  transform:scale(1.42) translatex(32px);
+ }
+ 
+}
+
 /* Paragraph */
 .neo-glass-section .overflow-hidden .mx-auto .text-center p{
  font-family:'Poppins', sans-serif;
