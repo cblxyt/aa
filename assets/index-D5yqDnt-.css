@@ -4189,22 +4189,22 @@ body {
  
  /* Nav link */
  .overflow-x-hidden .mx-auto .nav-link{
-  transform:scale(1.2) translatex(44px);
+  transform:scale(1.2) translatex(32px);
  }
  
  /* Neon button */
  .overflow-x-hidden .transition-all .neon-button{
-  transform: translatex(-181px);
+  transform: translatex(-201px);
  }
  
  /* Nav link */
  .justify-between .md\:flex .nav-link{
-  transform:scale(1.2) translatex(44px);
+  transform:scale(1.2) translatex(32px);
  }
  
  /* Neon button */
  .justify-between .md\:flex .neon-button{
-  transform: translatex(-181px);
+  transform: translatex(-201px);
  }
 /* Paragraph */
 .neo-glass-section .overflow-hidden .mx-auto .text-center p{
