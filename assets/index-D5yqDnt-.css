@@ -4179,22 +4179,19 @@ body {
 
 /* top part */
 .overflow-x-hidden .mx-auto .nav-link{
- transform:scale(1.2) translatex(44px);
+ transform:scale(1.2) translatex(98px);
+ margin-left:38px;
+ margin-right:38px;
+}
+
+/* Image */
+.flex-shrink-0 .items-center img{
+ transform:scale(1.42) translatex(127px);
 }
 
 /* Neon button */
 .overflow-x-hidden .transition-all .neon-button{
- transform: translatex(-181px);
-}
-
-/* Nav link */
-.justify-between .md\:flex .nav-link{
- transform:scale(1.2) translatex(44px);
-}
-
-/* Neon button */
-.justify-between .md\:flex .neon-button{
- transform: translatex(-181px);
+ transform: translatex(-158px);
 }
 
 /* Paragraph */
