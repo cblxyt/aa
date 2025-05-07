@@ -4183,29 +4183,30 @@ body {
 }
 
 /* top part */
- .flex-shrink-0 .items-center img{
-  transform:scale(1.42) translatex(138px);
- }
- 
- /* Nav link */
- .overflow-x-hidden .mx-auto .nav-link{
-  transform:scale(1.2) translatex(32px);
- }
- 
- /* Neon button */
- .overflow-x-hidden .transition-all .neon-button{
-  transform: translatex(-201px);
- }
- 
- /* Nav link */
- .justify-between .md\:flex .nav-link{
-  transform:scale(1.2) translatex(32px);
- }
- 
- /* Neon button */
- .justify-between .md\:flex .neon-button{
-  transform: translatex(-201px);
- }
+  .flex-shrink-0 .items-center img{
+   transform:scale(1.42) translatex(138px);
+  }
+  
+  /* Nav link */
+  .overflow-x-hidden .mx-auto .nav-link{
+   transform:scale(1.2) translatex(44px);
+  }
+  
+  /* Neon button */
+  .overflow-x-hidden .transition-all .neon-button{
+   transform: translatex(-181px);
+  }
+  
+  /* Nav link */
+  .justify-between .md\:flex .nav-link{
+   transform:scale(1.2) translatex(44px);
+  }
+  
+  /* Neon button */
+  .justify-between .md\:flex .neon-button{
+   transform: translatex(-181px);
+  }
+
 /* Paragraph */
 .neo-glass-section .overflow-hidden .mx-auto .text-center p{
  font-family:'Poppins', sans-serif;
@@ -4320,7 +4321,6 @@ body {
 .justify-between .md\:flex .nav-link{
  margin-right:32px;
  margin-left:33px;
- transform:scale(1.2) translatex(-105px);
 }
 
 /* Import Google Fonts */
@@ -4337,17 +4337,6 @@ body {
  font-family:'Poppins', sans-serif;
 }
 
-/* Nav link */
-.justify-between .md\:flex .nav-link{
- right:0px;
- left:24px;
-}
-
-/* Nav link */
-.overflow-x-hidden .mx-auto .nav-link{
- right:0px;
- left:24px;
-}
 
 /* Hover */
 .overflow-x-hidden .transition-all .hover\:text-white{
@@ -4387,10 +4376,6 @@ body {
  transform:scale(0);
 }
 
-/* Neon button */
-.overflow-x-hidden .transition-all .neon-button{
- transform: translatex(-349px);
-}
 
 /* Hover */
 .overflow-x-hidden .transition-all .hover\:text-white{
@@ -4400,11 +4385,6 @@ body {
 /* Nav link */
 .justify-between .md\:flex .nav-link:nth-child(5){
  transform:scale(0);
-}
-
-/* Neon button */
-.justify-between .md\:flex .neon-button{
- transform: translatex(-349px);
 }
 
 /* Hover */
