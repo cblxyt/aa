@@ -4184,6 +4184,13 @@ body {
  margin-right:38px;
 }
 
+/* top part */
+.justify-between .md\:flex .nav-link{
+ transform:scale(1.2) translatex(93px);
+ margin-left:38px;
+ margin-right:38px;
+}
+  
 /* Image */
 .flex-shrink-0 .items-center img{
  transform:scale(1.42) translatex(127px);
@@ -4191,6 +4198,11 @@ body {
 
 /* Neon button */
 .overflow-x-hidden .transition-all .neon-button{
+ transform: translatex(-158px);
+}
+
+/* Neon button */
+.justify-between .md\:flex .neon-button{
  transform: translatex(-158px);
 }
 
