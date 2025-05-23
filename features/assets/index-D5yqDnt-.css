@@ -4652,6 +4652,56 @@ body {
  font-family:'poppins';
 }
 
+/* NEW STUFF3 */
+.overflow-hidden .mx-auto h1{
+ font-family:'poppins';
+}
+
+/* Paragraph */
+.overflow-hidden .mx-auto p{
+ font-family:'poppins';
+}
+
+/* Hover */
+.overflow-hidden .mx-auto .hover\:border-primary{
+ font-family:'poppins';
+}
+
+/* Font bold */
+.min-h-screen .py-20 .container .mx-auto .font-bold{
+ font-family:'poppins';
+}
+
+/* Leading relaxed */
+.min-h-screen .py-20 .leading-relaxed{
+ font-family:'poppins';
+}
+
+/* From black */
+#root .min-h-screen .from-black{
+ font-family:'poppins';
+}
+
+/* Font bold */
+.min-h-screen .py-20 .font-bold{
+ font-family:'poppins';
+}
+
+/* Group */
+.min-h-screen .py-20 .grid .group{
+ font-family:'poppins';
+}
+
+/* Font bold */
+.min-h-screen .bg-gradient-to-b .container .mx-auto .font-bold{
+ font-family:'poppins';
+}
+
+/* Disabled */
+.min-h-screen .bg-gradient-to-b .container .mx-auto .disabled\:pointer-events-none{
+ font-family:'poppins';
+}
+
 
 
 
