@@ -4465,4 +4465,193 @@ body {
  
 }
 
+/* NEW STUFF */
+@import url("//fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* Paragraph */
+.relative > .overflow-hidden > .mx-auto > div p{
+ transform:translatex(0px) translatey(0px);
+}
+
+/* Font semibold */
+.overflow-x-hidden .justify-center .font-semibold{
+ font-family:'Poppins', sans-serif;
+}
+
+/* Text */
+.overflow-x-hidden .justify-center .text-lg{
+ font-family:'Poppins', sans-serif;
+}
+
+/* Items center */
+.overflow-hidden .mx-auto .text-center > a.items-center{
+ font-family:'Poppins', sans-serif;
+}
+
+.overflow-x-hidden .neo-glass-section .overflow-hidden h2{
+ padding-bottom:12px;
+}
+
+/* Text */
+.overflow-x-hidden .overflow-hidden .grid .text-xs{
+ font-family:'Poppins', sans-serif;
+}
+
+/* Text */
+.overflow-x-hidden .overflow-hidden .space-y-3 .text-sm{
+ font-family:'Poppins', sans-serif;
+}
+
+/* Span Tag */
+.overflow-x-hidden .flex .md\:text-base{
+ font-family:'Poppins', sans-serif;
+}
+
+/* Span Tag */
+.overflow-x-hidden .flex .md\:text-xl{
+ font-family:'Poppins', sans-serif;
+}
+
+/* Span Tag */
+.overflow-hidden .mx-auto .text-center .before\:transition-transform span{
+ font-family:'Poppins', sans-serif;
+}
+
+/* Font semibold */
+.overflow-hidden .mx-auto .mx-auto .relative .font-semibold{
+ font-family:'Poppins', sans-serif;
+}
+
+/* Rounded */
+.overflow-x-hidden .backdrop-blur-sm .rounded-xl{
+ font-family:'Poppins', sans-serif;
+}
+
+/* Link */
+.overflow-x-hidden .hover\:text-accent-foreground a{
+ font-family:'Poppins', sans-serif;
+}
+
+/* Space 3 */
+.overflow-x-hidden .w-full .space-y-3{
+ font-family:'Poppins', sans-serif;
+}
+
+/* Text */
+.overflow-x-hidden .w-full .text-xs{
+ font-family:'Poppins', sans-serif;
+}
+
+/* Heading */
+.neo-glass-section .relative .mx-auto .text-center h3{
+ font-family:'Poppins', sans-serif;
+}
+
+/* Items center */
+.overflow-x-hidden .neo-glass-section .relative a.items-center{
+ font-family:'poppins';
+}
+
+/* Text */
+.max-w-md .group .text-sm{
+ font-family:'poppins';
+}
+
+/* Span Tag */
+.space-y-8 .before\:transition-transform span{
+ font-family:'poppins';
+}
+
+/* Text primary */
+.overflow-x-hidden .space-y-8 .text-primary{
+ font-family:'poppins';
+}
+
+/* Items center */
+.overflow-x-hidden .relative .relative .section-divider .overflow-hidden > .mx-auto > .items-center{
+ font-family:'poppins';
+}
+
+/* Text primary */
+.overflow-x-hidden .mx-auto p.text-primary{
+ font-family:'poppins';
+}
+
+/* Paragraph */
+.overflow-x-hidden .backdrop-blur-sm p{
+ font-family:'poppins';
+}
+
+/* Transition all */
+.mx-auto > .transition-all{
+ font-family:'poppins';
+}
+
+/* Auto */
+.overflow-x-hidden .relative .relative .neo-glass-section > .relative > .mx-auto{
+ font-family:'poppins';
+}
+
+/* Division */
+.overflow-x-hidden .neo-glass-section .mb-32{
+ transform:translatex(0px) translatey(0px) !important;
+}
+
+/* Auto */
+.relative .neo-glass-section .py-20 .mx-auto .mx-auto{
+ font-family:'poppins';
+}
+
+/* Font bold */
+.overflow-x-hidden .relative .relative .neo-glass-section .py-20 .mx-auto h2.font-bold{
+ font-family:'poppins';
+}
+
+/* Span Tag */
+.inline-block .disabled\:pointer-events-none span{
+ font-family:'poppins';
+}
+
+/* Relative */
+.mx-auto .relative .relative .backdrop-blur-lg > .relative{
+ font-family:'poppins';
+}
+
+/* Auto */
+.overflow-x-hidden .relative .relative .section-divider > .relative > .mx-auto{
+ font-family:'poppins';
+}
+
+/* Hover */
+.overflow-x-hidden div .hover\:no-underline{
+ transform:translatex(0px) translatey(0px);
+}
+
+/* NEW STUFF2 */
+.min-h-screen .overflow-hidden h1{
+ font-family:'poppins';
+}
+
+/* Paragraph */
+.min-h-screen .overflow-hidden p{
+ font-family:'poppins';
+}
+
+/* Span Tag */
+.min-h-screen .overflow-hidden .container .text-center .justify-center .hover\:border-primary span{
+ font-family:'poppins';
+}
+
+/* Transition colors */
+.py-16 .grid .transition-colors{
+ font-family:'poppins';
+}
+
+/* Overflow hidden */
+#root .min-h-screen > .overflow-hidden{
+ font-family:'poppins';
+}
+
+
+
 
