@@ -4172,6 +4172,340 @@ body {
  font-family:'Poppins', sans-serif;
 }
 
+/* NEW STUFF2*/
+.overflow-hidden .mx-auto .text-center > a.items-center{
+ font-family:'poppins';
+}
+
+/* Font semibold */
+.space-y-12 .relative .font-semibold{
+ font-family:'poppins';
+}
+
+/* Heading */
+.from-black .mx-auto h2{
+ font-family:'poppins';
+}
+
+/* Font bold */
+.min-h-screen .py-20 .container .mx-auto .font-bold{
+ font-family:'poppins';
+}
+
+/* Hover */
+.overflow-hidden .mx-auto .hover\:border-primary{
+ font-family:'poppins';
+}
+
+/* Paragraph */
+.space-y-12 .relative p{
+ font-family:'poppins';
+}
+
+/* Font bold */
+.min-h-screen .py-20 .font-bold{
+ font-family:'poppins';
+}
+
+/* Group */
+.min-h-screen .py-20 .grid .group{
+ font-family:'poppins';
+}
+
+/* Disabled */
+.min-h-screen .bg-gradient-to-b .container .mx-auto .disabled\:pointer-events-none{
+ font-family:'poppins';
+}
+
+
+/* Font semibold */
+.mx-auto > .justify-center .font-semibold{
+ font-family:'poppins';
+}
+
+/* Text */
+.overflow-x-hidden .justify-center .text-lg{
+ font-family:'poppins';
+}
+
+/* Leading relaxed */
+.overflow-x-hidden .relative .relative .section-divider .overflow-hidden .mx-auto .mx-auto .leading-relaxed{
+ font-family:'poppins';
+}
+
+/* Full */
+.overflow-hidden .mx-auto .grid .w-full .w-full .w-full{
+ font-family:'poppins';
+}
+
+/* Span Tag */
+.overflow-x-hidden .flex .md\:text-base{
+ font-family:'poppins' !important;
+}
+
+/* Span Tag */
+.overflow-x-hidden .flex .md\:text-xl{
+ font-family:'poppins';
+}
+
+/* Span Tag */
+.overflow-hidden .mx-auto .text-center .before\:transition-transform span{
+ font-family:'poppins';
+}
+
+/* Font semibold */
+.overflow-x-hidden .backdrop-blur-sm .font-semibold{
+ font-family:'poppins';
+}
+
+/* Paragraph */
+.overflow-x-hidden .backdrop-blur-sm p{
+ font-family:'poppins';
+}
+
+/* Rounded */
+.overflow-x-hidden .backdrop-blur-sm .rounded-xl{
+ font-family:'poppins';
+}
+
+/* Link */
+.overflow-x-hidden .hover\:text-accent-foreground a{
+ font-family:'poppins';
+}
+
+/* Full */
+.overflow-x-hidden .w-full .w-full .w-full{
+ font-family:'poppins' !important;
+}
+
+/* Heading */
+.neo-glass-section .relative .mx-auto .text-center h3{
+ font-family:'poppins';
+}
+
+/* Items center */
+.overflow-x-hidden .neo-glass-section .relative a.items-center{
+ font-family:'poppins';
+}
+
+/* Transition opacity */
+.max-w-md .group .transition-opacity{
+ font-family:'poppins';
+}
+
+/* Text */
+.max-w-md .group .text-sm{
+ font-family:'poppins';
+}
+
+/* Text primary */
+.overflow-x-hidden .space-y-8 .text-primary{
+ font-family:'poppins';
+}
+
+/* Items center */
+.mb-32 .mx-auto .transition-all > .items-center{
+ font-family:'poppins' !important;
+}
+
+/* Span Tag */
+.text-sm > .items-center > span{
+ font-family:'poppins';
+}
+
+/* Span Tag */
+.overflow-x-hidden .justify-between .items-center span{
+ font-family:'poppins';
+}
+
+/* Heading */
+.mx-auto > h3{
+ font-family:'poppins';
+}
+
+/* Leading relaxed */
+.overflow-x-hidden .mx-auto .flex .leading-relaxed{
+ font-family:'poppins';
+}
+
+/* Font medium */
+.overflow-x-hidden .before\:transition-opacity .font-medium{
+ font-family:'poppins';
+}
+
+/* Font bold */
+.overflow-x-hidden .neo-glass-section .py-20 h2.font-bold{
+ font-family:'poppins' !important;
+}
+
+/* Auto */
+.relative .neo-glass-section .py-20 .mx-auto .mx-auto{
+ font-family:'poppins';
+}
+
+/* Absolute */
+.overflow-x-hidden .relative .relative .neo-glass-section > .relative > .absolute{
+ font-family:'poppins';
+}
+
+/* Section */
+.overflow-x-hidden .neo-glass-section .py-20{
+ transform:translatex(0px) translatey(0px);
+ font-family:'poppins';
+}
+
+/* Absolute */
+.section-divider > .relative > .absolute{
+ font-family:'poppins';
+}
+
+@media (min-width:601px){
+
+ /* Heading */
+ .overflow-x-hidden .neo-glass-section .overflow-hidden h2{
+  padding-bottom:8px;
+ }
+ 
+}
+
+/* Transition opacity */
+.mx-auto .relative .relative .backdrop-blur-lg .transition-opacity{
+ font-family:'poppins';
+}
+
+/* Leading relaxed */
+.mx-auto .relative .relative .backdrop-blur-lg .relative .leading-relaxed{
+ font-family:'poppins';
+}
+
+/* Font semibold */
+.mx-auto .relative .relative .backdrop-blur-lg .relative .font-semibold{
+ font-family:'poppins';
+}
+
+/* Items center */
+.overflow-x-hidden .section-divider .disabled\:pointer-events-none .items-center{
+ font-family:'poppins';
+}
+
+/* Heading */
+.overflow-x-hidden .grid h4{
+ font-family:'poppins';
+}
+
+/* Leading relaxed */
+.overflow-x-hidden .items-center .grid .leading-relaxed{
+ font-family:'poppins';
+}
+
+/* Paragraph */
+.overflow-x-hidden .space-y-4 .justify-center p{
+ font-family:'poppins';
+}
+
+/* Text */
+.mx-auto .overflow-hidden .relative .space-y-4 .text-sm{
+ font-family:'poppins';
+}
+
+/* Division */
+.relative > .relative > .mx-auto .grid div{
+ font-family:'poppins';
+}
+
+/* Paragraph */
+.overflow-x-hidden > .relative > .relative > .mx-auto .text-center p{
+ font-family:'poppins';
+}
+
+/* Heading */
+.min-h-screen .mx-auto h1{
+ font-family:'poppins';
+}
+
+/* Paragraph */
+.min-h-screen .overflow-hidden .mx-auto p{
+ font-family:'poppins';
+}
+
+/* Heading */
+.min-h-screen > .relative > .mx-auto .text-center h2{
+ font-family:'poppins';
+}
+
+/* Transition opacity */
+.min-h-screen .grid .transition-opacity{
+ transform:translatex(0px) translatey(0px);
+}
+
+/* Paragraph */
+.min-h-screen .grid .relative p{
+ font-family:'poppins';
+}
+
+/* Font semibold */
+.min-h-screen .glass-card .font-semibold{
+ font-family:'poppins';
+}
+
+/* Heading */
+#booking-form .mx-auto h2{
+ font-family:'poppins';
+}
+
+/* Text */
+#booking-form .mx-auto .text-xl{
+ font-family:'poppins';
+}
+
+/* Auto */
+#booking-form .relative > .mx-auto{
+ font-family:'poppins';
+}
+
+/* Text */
+.backdrop-blur-sm .space-y-2 label.text-sm{
+ font-family:'poppins';
+}
+
+/* Span Tag */
+.backdrop-blur-sm .disabled\:pointer-events-none span{
+ font-family:'poppins';
+}
+
+/* Heading */
+.py-20 .grid h2{
+ font-family:'poppins';
+}
+
+/* Font medium */
+.py-20 .transition-all .font-medium{
+ font-family:'poppins';
+}
+
+/* Font medium */
+.py-20 .space-y-4 h3.font-medium{
+ font-family:'poppins';
+}
+
+/* Hover */
+.py-20 .grid .hover\:bg-accent{
+ font-family:'poppins';
+}
+
+/* Leading relaxed */
+.min-h-screen .py-20 .leading-relaxed{
+ font-family:'poppins';
+}
+
+@media (min-width:601px){
+
+ .overflow-hidden .mx-auto .text-center > a.items-center{
+  font-family:'poppins';
+ }
+ 
+}
+
 /* Heading */
 .overflow-x-hidden .neo-glass-section .overflow-hidden h2{
  font-family:'Poppins', sans-serif;
@@ -4626,5 +4960,3 @@ body {
 .overflow-x-hidden div .hover\:no-underline{
  transform:translatex(0px) translatey(0px);
 }
-
-
