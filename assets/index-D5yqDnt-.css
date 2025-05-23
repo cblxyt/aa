@@ -4627,5 +4627,31 @@ body {
  transform:translatex(0px) translatey(0px);
 }
 
+/* NEW STUFF2 */
+.min-h-screen .overflow-hidden h1{
+ font-family:'poppins';
+}
+
+/* Paragraph */
+.min-h-screen .overflow-hidden p{
+ font-family:'poppins';
+}
+
+/* Span Tag */
+.min-h-screen .overflow-hidden .container .text-center .justify-center .hover\:border-primary span{
+ font-family:'poppins';
+}
+
+/* Transition colors */
+.py-16 .grid .transition-colors{
+ font-family:'poppins';
+}
+
+/* Overflow hidden */
+#root .min-h-screen > .overflow-hidden{
+ font-family:'poppins';
+}
+
+
 
 
